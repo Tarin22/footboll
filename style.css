@@ -1,0 +1,134 @@
+
+	body {
+	  background-color:white;
+      font-family: 'Poppins', sans-serif;
+	  color: black;
+	}
+	.btn {
+	  padding: 10px 40px;
+	  font-size: 1.5em;
+	  background-color:rgb(204, 4, 121);
+	  color: white;
+	}
+	.btn:hover {
+	  background-color: whitesmoke;
+	  color: gray;
+	  font-size: large;
+	}
+	/*BANNER CONTAINER PART*/
+	.banner-container {
+	  width: 100%;
+	  height: 600px;
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  background-color: rgb(45, 37, 160);
+	}
+	.container-one {
+	  width: 485px;
+	  height: 380px;
+	  margin-left: 156px;
+	  color: white;
+	}
+	
+
+	.container-one > h1 {
+	  font-size: 4em;
+	}
+	.container-two {
+	  width: 557px;
+	  height: 438;
+	  margin-left: 102px;
+	}
+	.banner-container img {
+	  width: 557px;
+	  height: 438px;
+	}
+	/*PLAYERS*/
+	.player-section {
+	  margin-left: 150px;
+	  margin-right: 150px;
+	  margin-top: 70px;
+	}
+	.players-list {
+	  display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  place-items: center;
+	  grid-row-gap: 30px;
+	}
+	.player-detail {
+	  align-items: center;
+	  width: 330px;
+	  height: 474px;
+	  padding: 15px;
+	  background-color: white;
+      box-shadow: 0px 0px 15px grey;
+	}
+	.player-detail img {
+	  width: 330px;
+	  height: 276px;
+	}
+	/*MATCH SECTION */
+	.match-container {
+	  width: 100%;
+	  height: 600px;
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  margin-top: 50px;
+	}
+	.match-container-one {
+	  width: 485px;
+	  height: 380px;
+	  margin-left: 156px;
+	}
+	
+
+	.match-container-one > h1 {
+	  font-size: 3em;
+	}
+	.match-container-two {
+	  width: 557px;
+	  height: 438;
+	  margin-left: 102px;
+	}
+	.match-container img {
+	  width: 557px;
+	  height: 438px;
+	}
+	/*LOGO AND SOCIAL MEDIA PART*/
+	.logo-social-container {
+	  display: grid;
+	  grid-template-columns: 1;
+	  place-items: center;
+	  grid-row-gap: 20px;
+	}
+	.logo-container-img {
+	  width: 483px;
+	  height: 110px;
+	  margin-top: 120px;
+	}
+	
+
+	.social-container {
+	  font-size: 2em;
+	}
+	.social-list {
+	  list-style-type: none;
+	  display: flex;
+	  flex-wrap: wrap;
+	}
+	.logos {
+	  padding: 10px;
+	  margin-left: 10px;
+	  background-color: white;
+	  border-radius: 20%;
+	  color: gray;
+	}
+	/*FOOTER SECTION*/
+	.footer-container {
+	  margin-top: 35px;
+	  text-align: center;
+	}
+
+
